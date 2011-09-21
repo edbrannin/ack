@@ -1255,7 +1255,7 @@ BEGIN {
         shell       => [qw( sh bash csh tcsh ksh zsh )],
         skipped     => q{Files, but not directories, normally skipped by ack (default: off)},
         smalltalk   => [qw( st )],
-        sql         => [qw( sql ctl )],
+        sql         => [qw( sql ctl pks pkb)],
         tcl         => [qw( tcl itcl itk )],
         tex         => [qw( tex cls sty )],
         text        => q{Text files, as defined by Perl's -T op (default: off)},
